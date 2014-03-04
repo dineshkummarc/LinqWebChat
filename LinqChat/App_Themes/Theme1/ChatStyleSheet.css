@@ -1,0 +1,45 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #7F7772;
+}
+
+.chatWindow
+{
+	border-right: #cc0000 2px solid;
+	border-top: #cc0000 2px solid;
+	border-left: #cc0000 2px solid;
+	border-bottom: #cc0000 2px solid;
+	height: 250px;
+	width: 300px;
+	background-color: #ffffcc;
+}
+
+.chatNowPanel
+{
+	background-color: whitesmoke;	
+	border-left: 1px solid #B6B6B6;
+	border-right: 1px solid #B6B6B6;
+	border-bottom: 1px solid #B6B6B6;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	text-align: center;	
+	width: 230px;
+	height: 136px;
+	color: #666666;
+}
+
+.chatNowPanelTitle
+{
+	background-color: #6699ff;
+	padding: 4px 4px 4px 4px;	
+	text-align: center;
+	color: White;
+	font-weight: bold;
+}
